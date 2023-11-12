@@ -10,6 +10,8 @@ year = datetime.datetime.now().year
 year_born = year - int(age)
 print('You were born in %d.' % year_born)
 
+beverage = input('What is your favorite beverage?\n')
+print(f'I like {beverage} too!')
 
 print("Ciao!")
 exit()

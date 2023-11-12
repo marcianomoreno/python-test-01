@@ -14,7 +14,7 @@ beverage = input('What is your favorite beverage?\n')
 beverage = beverage.lower()
 print(f'I like {beverage} too!')
 
-food = input('What is your favorite food?')
+food = input('What is your favorite food?\n')
 food = food.lower()
 print(f'Great, I like {food} as well!')
 

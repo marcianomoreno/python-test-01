@@ -11,7 +11,8 @@ year_born = year - int(age)
 print('You were born in %d.' % year_born)
 
 beverage = input('What is your favorite beverage?\n')
-print(f'I like {beverage} too!')
+beverage = beverage.lower()
+print(f'I like {beverage} as well!')
 
 print("Ciao!")
 exit()

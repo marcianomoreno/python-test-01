@@ -12,7 +12,7 @@ print('You were born in %d.' % year_born)
 
 beverage = input('What is your favorite beverage?\n')
 beverage = beverage.lower()
-print(f'I like {beverage} as well!')
+print(f'I like {beverage} too!')
 
 print("Ciao!")
 exit()

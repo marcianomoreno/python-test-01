@@ -18,5 +18,9 @@ food = input('What is your favorite food?\n')
 food = food.lower()
 print(f'Great, I like {food} as well!')
 
+country = input('What is your favourite country?\n')
+country = country.title()
+print(f'Wonderful, I love {country} too!')
+
 print("Ciao!")
 exit()

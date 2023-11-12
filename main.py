@@ -22,5 +22,8 @@ country = input('What is your favourite country?\n')
 country = country.title()
 print(f'Wonderful, I love {country} too!')
 
+artist = input('Who is your favorite artist?\n')
+print(f'Really? I love {artist}, as well! How many coincidences!')
+
 print("Ciao!")
 exit()

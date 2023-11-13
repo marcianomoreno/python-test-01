@@ -1,5 +1,6 @@
 import datetime
 
+# get user name
 name = input('What is your name?\n')
 print('Hi, %s.' % name)
 
@@ -8,6 +9,8 @@ age = input('What is your age?\n')
 year = datetime.datetime.now().year
 
 year_born = year - int(age)
+
+# show year of birth
 print('You were born in %d.' % year_born)
 
 beverage = input('What is your favorite beverage?\n')
